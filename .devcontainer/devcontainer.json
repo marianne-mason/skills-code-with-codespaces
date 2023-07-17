@@ -16,5 +16,5 @@
         "codespace.md"
         ]
     }
-  ,"postCreateCommand":
+  ,"postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
 }
