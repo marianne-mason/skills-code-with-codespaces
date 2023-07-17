@@ -4,5 +4,16 @@
 //use the base codespace image
 "image": "mcr.microsoft.com/vscode/devcontainers/universal"latest,
 "remoateUser": "codespace",
-"overridecommand": false
+"overridecommand": false,
+  "customizations: {
+  "vscode": {
+    "extensions": [
+      "GitHub.copilot"
+      ]
+  },
+    "codespaces": {
+      "openfiles": [
+        "codespace.md"
+        ]
+    }
 }
